@@ -18,8 +18,8 @@ import  Button  from "./ui/Button";
 // Map of category keys to their icons
 const CATEGORY_ICONS = {
     buttons: Square,
-    cards: Layout,
-    forms: FormInput,
+    alerts: Layout,
+    accordions: FormInput,
     tables: Table,
     charts: BarChart3,
 };

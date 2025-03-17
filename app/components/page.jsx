@@ -9,6 +9,8 @@ import CardsShowcase from "../../components/showcase/cards-showcase";
 import FormsShowcase from "../../components/showcase/form-showcase";
 import TablesShowcase from "../../components/showcase/tables-showcase";
 import ChartsShowcase from "../../components/showcase/charts-showcase";
+import AlertsShowcase from "../../components/showcase/alerts-showcase";
+import AccordionShowcase from "../../components/showcase/accordion-showcase";
 
 // Define the component categories and their showcase components
 const COMPONENT_CATEGORIES = {
@@ -18,25 +20,17 @@ const COMPONENT_CATEGORIES = {
             "Customizable button components with various styles and animations",
         component: ButtonsShowcase,
     },
-    cards: {
-        title: "Cards",
-        description: "Flexible card layouts for displaying content and data",
-        component: CardsShowcase,
+    alerts: {
+        title: "Alerts",
+        description:
+            "Customizable button components with various styles and animations",
+        component: AlertsShowcase,
     },
-    forms: {
-        title: "Forms & Inputs",
-        description: "Form components with validation and interactive elements",
-        component: FormsShowcase,
-    },
-    tables: {
-        title: "Tables & Data",
-        description: "Responsive tables and data presentation components",
-        component: TablesShowcase,
-    },
-    charts: {
-        title: "Charts & Graphs",
-        description: "Interactive data visualization components",
-        component: ChartsShowcase,
+    accordions: {
+        title: "Accordions",
+        description:
+            "Customizable accordion components with various styles and animations",
+        component: AccordionShowcase,
     },
 };
 
