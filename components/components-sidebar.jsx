@@ -11,6 +11,12 @@ import {
     Table,
     BarChart3,
     Package,
+    AlertCircle,
+    User2,
+    BadgeAlert,
+    Navigation,
+    Badge,
+    FormInputIcon,
 } from "lucide-react";
 import Link from "next/link";
 import  Button  from "./ui/Button";
@@ -18,10 +24,12 @@ import  Button  from "./ui/Button";
 // Map of category keys to their icons
 const CATEGORY_ICONS = {
     buttons: Square,
-    alerts: Layout,
+    alerts: AlertCircle,
     accordions: FormInput,
-    tables: Table,
-    charts: BarChart3,
+    avatars: User2,
+    badges: Badge,
+    bottomnavigation: Navigation,
+    inputs: FormInputIcon
 };
 
 export default function ComponentSidebar({

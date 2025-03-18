@@ -11,6 +11,10 @@ import TablesShowcase from "../../components/showcase/tables-showcase";
 import ChartsShowcase from "../../components/showcase/charts-showcase";
 import AlertsShowcase from "../../components/showcase/alerts-showcase";
 import AccordionShowcase from "../../components/showcase/accordion-showcase";
+import AvatarShowcase from "../../components/showcase/avatar-showcase";
+import BadgeShowcase from "../../components/showcase/badge-showcase";
+import BottomNavigationShowcase from "../../components/showcase/bottomnavigation-showcase";
+import InputShowcase from "../../components/showcase/input-showcase";
 
 // Define the component categories and their showcase components
 const COMPONENT_CATEGORIES = {
@@ -32,6 +36,29 @@ const COMPONENT_CATEGORIES = {
             "Customizable accordion components with various styles and animations",
         component: AccordionShowcase,
     },
+    avatars: {
+        title: "Avatars",
+        description:
+            "Customizable avatar components with various styles and animations",
+        component: AvatarShowcase,
+    },
+    badges: {
+        title: "Badges",
+        description:
+            "Customizable badge components with various styles and animations",
+        component: BadgeShowcase,
+    },
+    bottomnavigation: {
+        title: "Bottom Navigation",
+        description:
+            "Customizable bottom navigation components with various styles and animations",
+        component: BottomNavigationShowcase,
+    },
+    inputs: {
+        title: "Inputs",
+        description: "",
+        component: InputShowcase
+    }
 };
 
 export default function ComponentsPage() {
