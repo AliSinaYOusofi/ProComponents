@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import ComponentSidebar from "../../components/components-sidebar";
 import { SparklesCore } from "../../components/Sparkles";
 import ButtonsShowcase from "../../components/showcase/buttons-showcase";
-import CardsShowcase from "../../components/showcase/cards-showcase";
+import CardsShowcase from "../../components/showcase/card-showcase";
 import FormsShowcase from "../../components/showcase/form-showcase";
 import TablesShowcase from "../../components/showcase/tables-showcase";
 import ChartsShowcase from "../../components/showcase/charts-showcase";
@@ -15,6 +15,9 @@ import AvatarShowcase from "../../components/showcase/avatar-showcase";
 import BadgeShowcase from "../../components/showcase/badge-showcase";
 import BottomNavigationShowcase from "../../components/showcase/bottomnavigation-showcase";
 import InputShowcase from "../../components/showcase/input-showcase";
+import DropdownShowcase from "../../components/showcase/dropdown-showcase";
+import SpinnersShowcase from "../../components/showcase/spinners-showcase";
+import TooltipShowcase from "../../components/showcase/tooltip-showcase";
 
 // Define the component categories and their showcase components
 const COMPONENT_CATEGORIES = {
@@ -58,6 +61,26 @@ const COMPONENT_CATEGORIES = {
         title: "Inputs",
         description: "",
         component: InputShowcase
+    },
+    dropdowns: {
+        title: "Dropdowns",
+        description: "Customizable dropdown components with various styles and options",
+        component: DropdownShowcase
+    },
+    spinners: {
+        title: "Spinners",
+        description: "Loading spinner components with various styles and animations",
+        component: SpinnersShowcase
+    },
+    tooltips: {
+        title: "Tooltips",
+        description: "Customizable tooltip components with various styles and positions",
+        component: TooltipShowcase
+    },
+    cards: {
+        title: "Cards",
+        description: "Versatile card components with various layouts and interactions",
+        component: CardsShowcase
     }
 };
 
